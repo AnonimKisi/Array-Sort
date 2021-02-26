@@ -1,4 +1,6 @@
-﻿using System;
+//Made by AnonimKisi
+
+using System;
 using System.Collections;
 
 namespace ConsoleApp2
@@ -7,6 +9,7 @@ namespace ConsoleApp2
     {
         static void Main()
         {
+            Console.Title = "Made by AnonimKisi";
             int i = 0;
             Console.Write("How many elements will the array have?: ");
             int x = Convert.ToInt32(Console.ReadLine());
